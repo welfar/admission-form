@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+# Formulario de Admisión 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este proyecto fue desarrollado en el editor de texto de Visual Studio Code y para el desarrollo del servidor se utilizó la API de json-server.
 
-## Available Scripts
+El proyecto válida a través de un formulario inical los NIT de las empresas registradas en nuestro servidor, si la empresa ingresa el NIT inválido no permite el ingreso, saltando una alerta indicando que no tiene el permiso necesario para acceder al formulario de registro, caso contrario si ingresa un NIT valido podrá darle paso al siguiente formulario. En dicho formulario se podría realizar la modificacion de los datos o ingresar nueva informacion según se desea, este formulario tendrá algunas validaciones y requerimientos necesarios para poder hacer un registro exitoso, en caso de no ser realizado con éxito se dispondra de algunas ayudas con información relevante para la corrección de los campos de texto.
 
-In the project directory, you can run:
+## Requisitos
 
-### `yarn start`
+Para este proyecto necesitas tener instalado lo siguiente:
+* Node.js
+* Usar el servidor de json-server, el cual tiene un srcipt de ejecución a través de   la consola con la siguiente línea de comando:
+  ~~~
+  yarn server
+  ~~~
+  Este servidor está direccionado al puerto 8000 y la aplicación esta corriendo en     el puerto 3000.
+  
+### Configuración
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Para configurar este proyecto de forma local sigue estas instrucciones:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1.Clona el proyecto de Git:
+~~~
+git clone
+~~~
+2.Instala las dependencias con YARN, el que tu prefieras:
+ ~~~
+yarn install
+~~~
+3.Crea un archivo .env con las variables de entorno:
+~~~
+REACT_APP_SERVER_URL="http://localhost:8000"
+REACT_APP_BASE_URL="http://localhost:3000"
+~~~
+Ejecuta el proyecto en una terminal con el siguiente comando:
+~~~
+yarn start
+~~~
+Ejecuta el servidor en otra terminal con el siguiente comando:
+~~~
+yarn server
+~~~
+Con esto el proyecto correrá normalmente desde tu localhost.
