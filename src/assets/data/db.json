@@ -1,0 +1,54 @@
+{
+  "nits": [
+    {
+      "id": "811033098",
+      "response": "Succes",
+      "data": {
+        "dniType": "NIT",
+        "dni": "811033098",
+        "nameCompany": "",
+        "firstName": "",
+        "secondName": "",
+        "firstLastName": "",
+        "secondLastName": "",
+        "email": "",
+        "way": "",
+        "num1": "",
+        "ltr1": "",
+        "num2": "",
+        "ltr2": "",
+        "compl": "",
+        "address": "",
+        "municipality": "",
+        "cellPhone": ""
+      }
+    },
+    {
+      "id": "900674336",
+      "response": "Succes",
+      "data": {
+        "dniType": "NIT",
+        "dni": "900674336",
+        "nameCompany": "",
+        "firstName": "",
+        "secondName": "",
+        "firstLastName": "",
+        "secondLastName": "",
+        "email": "",
+        "way": "",
+        "num1": "",
+        "ltr1": "",
+        "num2": "",
+        "ltr2": "",
+        "compl": "",
+        "address": "",
+        "municipality": "",
+        "cellPhone": ""
+      }
+    },
+    {
+      "id": "900674335",
+      "response": "Denied"
+    }
+  ]
+}

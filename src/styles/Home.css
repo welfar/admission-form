@@ -1,0 +1,21 @@
+body {
+  margin: 20px;
+}
+
+.body-container {
+  margin: 20px;
+}
+
+.inpt{
+  width: 350px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  width: 300px;
+  margin: 5px;
+}
