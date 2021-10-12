@@ -12,7 +12,7 @@ Para este proyecto necesitas tener instalado lo siguiente:
   ~~~
   yarn server
   ~~~
-  Este servidor está direccionado al puerto 8000 y la aplicación esta corriendo en     el puerto 3000.
+  Este servidor está direccionado al puerto 8000 y la aplicación esta dirreccionada  al puerto 3000.
   
 ### Configuración
 
